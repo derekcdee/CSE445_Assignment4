@@ -124,4 +124,16 @@
     </Address>
     <Rating>4.9</Rating>
   </Hotel>
+  <Hotel>
+    <Name>The Phoenician</Name>
+    <Phone>480-941-8200</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85018</Zip>
+    </Address>
+    <Rating>4.8</Rating>
+  </Hotel>
 </Hotels>
