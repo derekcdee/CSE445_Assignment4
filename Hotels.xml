@@ -39,15 +39,16 @@
     <Rating>4.3</Rating>
   </Hotel>
   <Hotel>
-    <Name>John Doe Inn</Name>
-    <Phone>602-555-1234</Phone>
-    <Address>
-      <Number>123</Number>
-      <Street>Main St</Street>
+    <Name>Arizona Grand Resort &amp; Spa</Name>
+    <Phone>602-438-9000</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>8000</Number>
+      <Street>S Arizona Grand Pkwy</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85007</Zip>
+      <Zip>85044</Zip>
     </Address>
+    <Rating>4.4</Rating>
   </Hotel>
   <Hotel>
     <Name>Desert Oasis Lodge</Name>
@@ -117,23 +118,3 @@
     <Phone>928-555-1123</Phone>
     <Address NearestAirport="Flagstaff Pulliam">
       <Number>555</Number>
-      <Street>Tourist Center Rd</Street>
-      <City>Grand Canyon Village</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
-    </Address>
-    <Rating>4.9</Rating>
-  </Hotel>
-  <Hotel>
-    <Name>The Phoenician</Name>
-    <Phone>480-941-8200</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
-      <Number>6000</Number>
-      <Street>E Camelback Rd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85018</Zip>
-    </Address>
-    <Rating>4.8</Rating>
-  </Hotel>
-</Hotels>
