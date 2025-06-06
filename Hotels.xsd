@@ -8,20 +8,24 @@
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <!-- one or more hotel elements -->
+        <!-- one or more Hotel elements -->
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <!-- <name> is required -->
+              <!-- <Name> is required -->
               <xs:element name="Name" type="xs:string" />
 
-              <!-- one or more <phone> -->
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              <!-- one or more <Phone> -->
+              <xs:element name="Phone"
+                          type="xs:string"
+                          minOccurs="1"
+                          maxOccurs="unbounded"/>
 
-              <!-- exactly one <address> -->
+              <!-- exactly one <Address> -->
               <xs:element name="Address">
                 <xs:complexType>
-                  <!-- child elements sequence first -->
+
+                  <!-- 1) particle (your elements) -->
                   <xs:sequence>
                     <xs:element name="Number" type="xs:string"/>
                     <xs:element name="Street" type="xs:string"/>
@@ -29,13 +33,18 @@
                     <xs:element name="State"  type="xs:string"/>
                     <xs:element name="Zip"    type="xs:string"/>
                   </xs:sequence>
-                  <!-- then any attributes -->
-                  <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+
+                  <!-- 2) then any attributes -->
+                  <xs:attribute name="NearestAirport"
+                                type="xs:string"
+                                use="optional"/>
                 </xs:complexType>
               </xs:element>
 
-              <!-- optional <rating> element -->
-              <xs:element name="Rating" type="xs:decimal" minOccurs="0"/>
+              <!-- optional <Rating> element -->
+              <xs:element name="Rating"
+                          type="xs:decimal"
+                          minOccurs="0"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
