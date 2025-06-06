@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+  
+  <!-- 1) the hotel from figure 1 -->
+  <Hotel>
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-957-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <!-- 2) additional hotel -->
+  <Hotel>
+    <Name>Hilton Scottsdale Resort</Name>
+    <Phone>480-945-6400</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>6333</Number>
+      <Street>North Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+    <Rating>4.5</Rating>
+  </Hotel>
+
+  <!-- 3) another -->
+  <Hotel>
+    <Name>Embassy Suites Phoenix Downtown</Name>
+    <Phone>602-307-2700</Phone>
+    <Phone>602-364-1095</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>517</Number>
+      <Street>North 5th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <Rating>4.3</Rating>
+  </Hotel>
+
+  <!-- 4) john doe inn -->
+  <Hotel>
+    <Name>John Doe Inn</Name>
+    <Phone>602-555-1234</Phone>
+    <Address>
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85007</Zip>
+    </Address>
+    <!-- no <Rating> specified (optional) -->
+  </Hotel>
+
+  <!-- 5) desert oasis lodge -->
+  <Hotel>
+    <Name>Desert Oasis Lodge</Name>
+    <Phone>928-555-6789</Phone>
+    <Phone>928-555-6790</Phone>
+    <Address NearestAirport="Flagstaff Pulliam">
+      <Number>456</Number>
+      <Street>Route 66</Street>
+      <City>Williams</City>
+      <State>AZ</State>
+      <Zip>86046</Zip>
+    </Address>
+    <Rating>4.0</Rating>
+  </Hotel>
+
+  <!-- 6) canyon ridge guest house -->
+  <Hotel>
+    <Name>Canyon Ridge Guest House</Name>
+    <Phone>928-555-0101</Phone>
+    <Address>
+      <Number>789</Number>
+      <Street>South Elm St</Street>
+      <City>Flagstaff</City>
+      <State>AZ</State>
+      <Zip>86001</Zip>
+    </Address>
+    <Rating>3.8</Rating>
+  </Hotel>
+
+  <!-- 7) phoenix metro suites -->
+  <Hotel>
+    <Name>Phoenix Metro Suites</Name>
+    <Phone>480-555-2323</Phone>
+    <Phone>480-555-2324</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>222</Number>
+      <Street>East Van Buren St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <Rating>4.1</Rating>
+  </Hotel>
+
+  <!-- 8) tucson valley hotel -->
+  <Hotel>
+    <Name>Tucson Valley Hotel</Name>
+    <Phone>520-555-3456</Phone>
+    <Address NearestAirport="Tucson International">
+      <Number>987</Number>
+      <Street>North Campbell Ave</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85719</Zip>
+    </Address>
+    <Rating>4.4</Rating>
+  </Hotel>
+
+  <!-- 9) sedona red rock inn -->
+  <Hotel>
+    <Name>Sedona Red Rock Inn</Name>
+    <Phone>928-555-9870</Phone>
+    <Address NearestAirport="Flagstaff Pulliam">
+      <Number>321</Number>
+      <Street>South Hwy 89A</Street>
+      <City>Sedona</City>
+      <State>AZ</State>
+      <Zip>86336</Zip>
+    </Address>
+    <Rating>4.7</Rating>
+  </Hotel>
+
+  <!-- 10) grand canyon bed & b -->
+  <Hotel>
+    <Name>Grand Canyon B&amp;B</Name>
+    <Phone>928-555-1122</Phone>
+    <Phone>928-555-1123</Phone>
+    <Address NearestAirport="Flagstaff Pulliam">
+      <Number>555</Number>
+      <Street>Tourist Center Rd</Street>
+      <City>Grand Canyon Village</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+    <Rating>4.9</Rating>
+  </Hotel>
+
+</Hotels>
