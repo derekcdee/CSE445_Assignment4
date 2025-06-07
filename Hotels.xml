@@ -36,7 +36,7 @@
     </Address>
   </Hotel>
   <Hotel Rating="4.4">
-    <Name>Arizona Grand Resort &amp; Spa</Name>
+    <Name>Arizona Grand Resort and Spa</Name>
     <Phone>602-438-9000</Phone>
     <Address NearstAirport="Phoenix Sky Harbor">
       <Number>8000</Number>
@@ -63,6 +63,7 @@
   <Hotel>
     <Name>Canyon Ridge Guest House</Name>
     <Phone>928-555-0101</Phone>
+    <Phone>928-555-0102</Phone>
     <Address>
       <Number>789</Number>
       <Street>South Elm St</Street>
@@ -106,10 +107,9 @@
     </Address>
   </Hotel>
   <Hotel>
-    <Name>Grand Canyon B&amp;B</Name>
+    <Name>Grand Canyon BandB</Name>
     <Phone>928-555-1122</Phone>
-    <Phone>928-555-1123</Phone>
-    <Address NearstAirport="Flagstaff Pulliam">
+    <Address>
       <Number>555</Number>
       <Street>Tourist Center Rd</Street>
       <City>Grand Canyon Village</City>
