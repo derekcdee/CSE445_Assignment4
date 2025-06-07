@@ -50,6 +50,8 @@
     <Name>Desert Oasis Lodge</Name>
     <Phone>928-555-6789</Phone>
     <Phone>928-555-6790</Phone>
+    <Phone>928-555-6791</Phone>
+    <Phone>928-555-6792</Phone>
     <Address NearstAirport="Flagstaff Pulliam">
       <Number>456</Number>
       <Street>Route 66</Street>
@@ -58,7 +60,7 @@
       <Zip>86046</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="3.8">
+  <Hotel>
     <Name>Canyon Ridge Guest House</Name>
     <Phone>928-555-0101</Phone>
     <Address>
@@ -81,10 +83,10 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.4">
+  <Hotel>
     <Name>Tucson Valley Hotel</Name>
     <Phone>520-555-3456</Phone>
-    <Address NearstAirport="Tucson International">
+    <Address>
       <Number>987</Number>
       <Street>North Campbell Ave</Street>
       <City>Tucson</City>
@@ -103,7 +105,7 @@
       <Zip>86336</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.9">
+  <Hotel>
     <Name>Grand Canyon B&amp;B</Name>
     <Phone>928-555-1122</Phone>
     <Phone>928-555-1123</Phone>
