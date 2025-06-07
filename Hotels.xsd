@@ -12,7 +12,10 @@
           <xs:complexType>
             <xs:sequence>
               <!-- required Name -->
-              <xs:element name="Name" type="xs:string" minOccurs="1"/>
+              <xs:element name="Name"
+                          type="xs:string"
+                          minOccurs="1"
+                          maxOccurs="1"/>
 
               <!-- one or more Phone -->
               <xs:element name="Phone"
@@ -21,14 +24,31 @@
                           maxOccurs="unbounded"/>
 
               <!-- exactly one Address, with all sub-elements required -->
-              <xs:element name="Address" minOccurs="1">
+              <xs:element name="Address"
+                          minOccurs="1"
+                          maxOccurs="1">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Number" type="xs:string" minOccurs="1"/>
-                    <xs:element name="Street" type="xs:string" minOccurs="1"/>
-                    <xs:element name="City"   type="xs:string" minOccurs="1"/>
-                    <xs:element name="State"  type="xs:string" minOccurs="1"/>
-                    <xs:element name="Zip"    type="xs:string" minOccurs="1"/>
+                    <xs:element name="Number"
+                                type="xs:string"
+                                minOccurs="1"
+                                maxOccurs="1"/>
+                    <xs:element name="Street"
+                                type="xs:string"
+                                minOccurs="1"
+                                maxOccurs="1"/>
+                    <xs:element name="City"
+                                type="xs:string"
+                                minOccurs="1"
+                                maxOccurs="1"/>
+                    <xs:element name="State"
+                                type="xs:string"
+                                minOccurs="1"
+                                maxOccurs="1"/>
+                    <xs:element name="Zip"
+                                type="xs:string"
+                                minOccurs="1"
+                                maxOccurs="1"/>
                   </xs:sequence>
                   <!-- optional attribute NearestAirport -->
                   <xs:attribute name="NearestAirport"
@@ -40,7 +60,8 @@
               <!-- optional Rating -->
               <xs:element name="Rating"
                           type="xs:decimal"
-                          minOccurs="0"/>
+                          minOccurs="0"
+                          maxOccurs="1"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
