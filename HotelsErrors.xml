@@ -1,55 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel>
-  <Hotel>
+<Hotel>  <!-- 1) Root element name is “Hotel” instead of “Hotels” -->
+  <Hotel Rating="4.2">
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
-    <Phone>800-957-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>11</Number>
       <Street>E. 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Rating>4.2</Rating>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.5">
     <Name>Hilton Scottsdale Resort</Name>
-    <Phone>480-945-6400</Phone>
-    <Address>
+    <!-- 3) Missing <Phone> entirely on this hotel -->
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>6333</Number>
       <Street>North Scottsdale Rd</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85250</Zip>
     </Address>
-    <Rating>4.5</Rating>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.3">
     <Name>Embassy Suites Phoenix Downtown</Name>
     <Phone>602-307-2700</Phone>
     <Phone>602-364-1095</Phone>
+    <!-- 4) This <Address> is never closed -->
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>517</Number>
       <Street>North 5th St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
-    </Address>
-    <Rating>4.3</Rating>
   </Hotel>
-  <Hotel>
-    <Name>John Doe Inn</Name>
-    <Phone>602-555-1234</Phone>
+
+  <Hotel Rating="4.4">
+    <Name>Arizona Grand Resort &amp; Spa</Name>
+    <Phone>602-438-9000</Phone>
+    <!-- 2) Missing the required NearestAirport attribute here -->
     <Address>
-      <Number>123</Number>
-      <Street>Main St</Street>
+      <Number>8000</Number>
+      <Street>S Arizona Grand Pkwy</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85007</Zip>
+      <Zip>85044</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.0">
+    <!-- 5) Two <Name> elements on this hotel -->
     <Name>Desert Oasis Lodge</Name>
     <Name>Desert Oasis Lodge</Name>
     <Phone>928-555-6789</Phone>
@@ -61,21 +64,24 @@
       <State>AZ</State>
       <Zip>86046</Zip>
     </Address>
-    <Rating>4.0</Rating>
   </Hotel>
-  <Hotel>
+
+  <!-- The rest of the hotels remain unchanged -->
+
+  <Hotel Rating="3.8">
     <Name>Canyon Ridge Guest House</Name>
     <Phone>928-555-0101</Phone>
-    <Address>
+    <Phone>928-555-0102</Phone>
+    <Address NearestAirport="Flagstaff Pulliam">
       <Number>789</Number>
       <Street>South Elm St</Street>
       <City>Flagstaff</City>
       <State>AZ</State>
       <Zip>86001</Zip>
     </Address>
-    <Rating>3.8</Rating>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.1">
     <Name>Phoenix Metro Suites</Name>
     <Phone>480-555-2323</Phone>
     <Phone>480-555-2324</Phone>
@@ -86,9 +92,9 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <Rating>4.1</Rating>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.4">
     <Name>Tucson Valley Hotel</Name>
     <Phone>520-555-3456</Phone>
     <Address NearestAirport="Tucson International">
@@ -98,9 +104,9 @@
       <State>AZ</State>
       <Zip>85719</Zip>
     </Address>
-    <Rating>4.4</Rating>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.7">
     <Name>Sedona Red Rock Inn</Name>
     <Phone>928-555-9870</Phone>
     <Address NearestAirport="Flagstaff Pulliam">
@@ -110,9 +116,9 @@
       <State>AZ</State>
       <Zip>86336</Zip>
     </Address>
-    <Rating>4.7</Rating>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.9">
     <Name>Grand Canyon B&amp;B</Name>
     <Phone>928-555-1122</Phone>
     <Phone>928-555-1123</Phone>
@@ -123,9 +129,9 @@
       <State>AZ</State>
       <Zip>86023</Zip>
     </Address>
-    <Rating>4.9</Rating>
   </Hotel>
-  <Hotel>
+
+  <Hotel Rating="4.8">
     <Name>The Phoenician</Name>
     <Phone>480-941-8200</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
@@ -135,6 +141,5 @@
       <State>AZ</State>
       <Zip>85018</Zip>
     </Address>
-    <Rating>4.8</Rating>
   </Hotel>
 </Hotel>
